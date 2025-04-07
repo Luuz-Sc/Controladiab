@@ -1,0 +1,46 @@
+[versions]
+agp = "8.7.2"
+constraintlayoutVersion = "2.1.0"
+gridlayout = "1.0.0"
+gson = "2.10.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.3"
+constraintlayout = "2.2.0"
+biometric = "1.1.0"
+slf4jApi = "1.7.30"
+supportAnnotations = "28.0.0"
+roomCommon = "2.6.1"
+roomRuntimeAndroid = "2.7.0-alpha12"
+tensorflowLite = "2.12.0"
+window = "1.3.0"
+workRuntime = "2.10.0"
+annotation = "1.9.1"
+
+[libraries]
+constraintlayout-v210 = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayoutVersion" }
+gridlayout = { module = "androidx.gridlayout:gridlayout", version.ref = "gridlayout" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+biometric = { group = "androidx.biometric", name = "biometric", version.ref = "biometric" }
+slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "slf4jApi" }
+support-annotations = { group = "com.android.support", name = "support-annotations", version.ref = "supportAnnotations" }
+room-common = { group = "androidx.room", name = "room-common", version.ref = "roomCommon" }
+room-runtime-android = { group = "androidx.room", name = "room-runtime-android", version.ref = "roomRuntimeAndroid" }
+tensorflow-lite = { module = "org.tensorflow:tensorflow-lite", version.ref = "tensorflowLite" }
+window = { group = "androidx.window", name = "window", version.ref = "window" }
+work-runtime = { module = "androidx.work:work-runtime", version.ref = "workRuntime" }
+annotation = { group = "androidx.annotation", name = "annotation", version.ref = "annotation" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+

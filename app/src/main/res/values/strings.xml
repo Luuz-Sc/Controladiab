@@ -1,0 +1,270 @@
+<resources>
+    <string name="app_name">Controladiab</string>
+    <string name="menu_inicio">Inicio</string>
+    <string name="menu_control_glucosa">Control Glucosa</string>
+    <string name="menu_alarma_med">Alarma Médicamentos</string>
+    <string name="menu_registro">Registro</string>
+    <string name="menu_alimentos">Alimentos</string>
+    <string name="go_to_register">Register</string>
+    <string name="login_title">Iniciar Sesión</string>
+    <string name="hint_email">Correo Electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="login_button_text">Iniciar Sesión</string>
+    <string name="register_button_text">Registrarse</string>
+    <string name="registro_de_datos">Registro de Datos</string>
+    <string name="hint_nombre_completo">Escribe tu nombre completo:</string>
+    <string name="hint_edad">Registra tu edad:</string>
+    <string name="hint_genero">Indica tu género:</string>
+    <string name="hint_tipo_diabetes">Indica tu tipo de diabetes:</string>
+    <string name="hint_fecha_prueba">Fecha de última prueba:</string>
+    <string name="imc_instrucciones">Ingresa los datos para calcular tu índice de masa corporal:</string>
+    <string name="hint_peso">Peso (kg):</string>
+    <string name="hint_altura">Altura (m):</string>
+    <string name="medication_name_hint">Nombre del Medicamento</string>
+    <string name="set_alarm">Configurar Alarma</string>
+    <string name="set_medication_alarm">Configurar Alarma de Medicamento</string>
+    <string name="app_logo_description">Logo de Controladiab</string>
+    <string name="alarms_list">Lista de alarmas configuradas:</string>
+    <string name="plato_bien_comer">Imagen del Plato del Buen Comer</string>
+    <string name="tortilla_de_maiz">Tortilla de Maíz</string>
+    <string name="menu_info_diabetes">Info Diabetes</string>
+
+    <string name="error_autenticacion">Error en autenticación: %1$s</string>
+    <string name="autenticacion_exitosa">Autenticación exitosa, puedes registrar la glucosa.</string>
+    <string name="autenticacion_fallida">Autenticación fallida.</string>
+    <string name="glucosa_registrada">Nivel de glucosa registrado: %1$s mg/dL</string>
+    <string name="mensaje_ingresar_glucosa">Por favor ingresa el nivel de glucosa</string>
+
+        <string name="configurar_alarma">Configurar Alarma</string>
+        <string name="nombre_medicamento">Nombre del Medicamento</string>
+        <string name="boton_configurar_alarma">Configurar Alarma</string>
+        <string name="L">L</string>
+        <string name="M">M</string>
+        <string name="MI">MI</string>
+        <string name="J">J</string>
+        <string name="V">V</string>
+        <string name="S">S</string>
+        <string name="D">D</string>
+
+    <string name="btn_calcular_imc">Calcular IMC</string>
+    <string name="imc_result">IMC:</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="registro_de_alimentos">Registro de Alimentos</string>
+
+    <string name="huevo">Huevo</string>
+    <string name="alergias_alimentarias">Alergias Alimentarias</string>
+    <string name="escribe_tus_alergias">Escribe tus alergias</string>
+    <string name="registrar_alimentos_no_deseados">Registrar Alimentos No Deseados</string>
+    <string name="generar_dieta_personalizada">Generar Dieta Personalizada</string>
+    <string name="imagen_del_plato_del_buen_comer">Imagen del Plato del Buen Comer</string>
+    <string name="qu_es_la_diabetes_y_c_mo_cuidarse">¿Qué es la Diabetes y cómo cuidarse?</string>
+    <string name="videos_de_como_mantenerse_en_forma">Videos de como mantenerse en forma</string>
+    <string name="inicio">Inicio</string>
+    <string name="control_glucosa">Control Glucosa</string>
+    <string name="alarma_m_dica">Alarma Médica</string>
+    <string name="alimentos">Alimentos</string>
+    <string name="info_diabetes">Info Diabetes</string>
+    <string name="registro">Registro</string>
+    <string name="nombre_completo">Nombre Completo</string>
+    <string name="correo_electr_nico">Correo Electrónico</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="registrarse">Registrarse</string>
+
+    <string name="btn_control_glucosa_desc">Control de Glucosa</string>
+    <string name="btn_med_alarm_desc">Recordatorio de Medicación</string>
+    <string name="btn_register_alimentos_desc">Registro de Alimentos</string>
+    <string name="btn_actividad_fisica_desc">Actividad Física</string>
+    <string name="btn_calendario_desc">Calendario</string>
+    <string name="btn_jarra_buen_beber_desc">Jarra del Buen Beber</string>
+    <string name="Programar_cita">Programar Cita</string>
+    <string name="delete_button_text">Eliminar</string>
+    <string name="auth_error_message">Error en autenticación: %1$s</string>
+    <string name="auth_success_message">Autenticación exitosa, puedes registrar la glucosa.</string>
+    <string name="auth_failed_message">Autenticación fallida.</string>
+    <string name="btnGuardarf">Guardar</string>
+
+
+    <string name="btn_registra_datos_text">Registra tus datos</string>
+    <string name="toolbar_title">Controladiab</string>
+
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="registra_tus_datos">Registra tus datos</string>
+    <string name="cerrar_sesi_n">Cerrar sesión</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="tu_resultado_aparecer_aqu">Tu resultado aparecerá aquí</string>
+    <string name="capturar_glucosa">Capturar Glucosa</string>
+
+
+    <string-array name="generos">
+        <item>Hombre</item>
+        <item>Mujer</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="tipos_diabetes">
+        <item>Selecciona</item>
+        <item>Tipo 1</item>
+        <item>Tipo 2</item>
+        <item>Gestacional</item>
+        <item>Ninguno</item>
+    </string-array>
+
+    <string name="seleccion_text">Selecciona las frutas y verduras que te gustaría agregar a tu dieta:</string>
+    <string name="frutas_title">Frutas</string>
+    <string name="verduras_title">Verduras</string>
+
+
+    <string name="guardar_button">Guardar</string>
+    <string name="regresar_button">Regresar</string>
+    <string name="frutas">Frutas</string>
+    <string name="selecciona_las_frutas_y_verduras_que_te_gustar_a_agregar_a_tu_dieta">Selecciona las frutas y verduras que te gustaría agregar a tu dieta:</string>
+
+    <string name="selecciona_las_leguminosas_y_alimentos_origen_animal_que_te_gustar_a_agregar_a_tu_dieta">
+        Selecciona las leguminosas y alimentos de origen animal que te gustaría agregar a tu dieta
+    </string>
+    <string name="leguminosas">Leguminosas</string>
+    <string name="alimentos_origen_animal">Alimentos de origen animal</string>
+
+    <string name="frijol">Frijol</string>
+    <string name="lenteja">Lenteja</string>
+    <string name="garbanzos">Garbanzos</string>
+    <string name="soja">Soja</string>
+    <string name="almendra">Almendra</string>
+    <string name="pistacho">Pistacho</string>
+
+
+    <string name="pollo">Pollo</string>
+    <string name="res">Res</string>
+    <string name="cerdo">Cerdo</string>
+    <string name="pavo">Pavo</string>
+    <string name="pescado">Pescado</string>
+    <string name="huevos">Huevos</string>
+
+
+    <string name="guardar">Guardar</string>
+    <string name="guardar1">Guardar Alimentos</string>
+    <string name="regresar">Regresar</string>
+    <string name="regresarLeguminosas">Regresar</string>
+    <string name="ingresa_tus_alergias">Ingresa tus alergias alimentarias</string>
+    <string name="txt_seleccion_volumen">Por defecto la jarra tiene 2 litros</string>
+    <string name="txt_vasos_tomados">Vasos tomados hoy: %1$d</string>
+    <string name="txt_faltan_litros">Te faltan %1$d vasos</string>
+
+    <string name="instruccion_dieta">Selecciona una categoría para personalizar tu dieta:</string>
+    <string name="banner_dieta">Banner sobre alimentación saludable</string>
+
+    <string name="please_enter_medication_name">Por favor, ingresa el nombre del medicamento</string>
+    <string name="alarm_set_success">Alarma configurada con éxito</string>
+    <string name="modify_alarm_function_not_implemented">Función de modificación de alarma no implementada</string>
+    <string name="no_alarm_to_delete">No hay alarma para eliminar</string>
+    <string name="alarm_deleted">Alarma eliminada</string>
+
+    <string-array name="volumen_litros">
+        <item>1 litro</item>
+        <item>2 litros</item>
+        <item>3 litros</item>
+    </string-array>
+
+    <string name="btn_regresar_principal">Regresar a la página principal</string>
+
+    <string name="btn_set_alarm">Configurar Alarma</string>
+    <string name="btn_back">Regresar</string>
+    <string name="btn_modify_alarm">Modificar Alarma</string>
+    <string name="btn_delete_alarm">Eliminar Alarma</string>
+
+
+    <string name="configurar_recordatorio">Configurar Recordatorio de Cita</string>
+    <string name="selecciona_fecha_hora">Selecciona la fecha y hora de tu consulta</string>
+    <string name="guardar_recordatorio">Guardar Recordatorio</string>
+    <string name="modificar_cita">Modificar Cita</string>
+    <string name="eliminar_cita">Eliminar Cita</string>
+    <string name="configurar_recordatorio_de_cita">Configurar Recordatorio de Cita</string>
+    <string name="selecciona_la_fecha_y_hora_de_tu_consulta">Selecciona la fecha y hora de tu consulta</string>
+    <string name="guardar_recordatorio1">Guardar Recordatorio</string>
+    <string name="modificar_cita1">Modificar Cita</string>
+    <string name="eliminar_cita1">Eliminar Cita</string>
+    <string name="frutas_y_verduras">Frutas y Verduras</string>
+    <string name="fresa">Fresa</string>
+    <string name="mora">Mora</string>
+    <string name="mandarina">Mandarina</string>
+    <string name="ar_ndanos">Arándanos</string>
+    <string name="pera">Pera</string>
+    <string name="naranja_con_bagazo">Naranja</string>
+    <string name="manzana">Manzana</string>
+    <string name="guayaba">Guayaba</string>
+    <string name="aguacate">Aguacate</string>
+    <string name="kiwi">Kiwi</string>
+    <string name="ciruela">Ciruela</string>
+    <string name="cereales">Cereales</string>
+    <string name="arroz">Arroz</string>
+    <string name="avena">Avena</string>
+    <string name="trigo">Trigo</string>
+    <string name="quinoa">Quinoa</string>
+    <string name="cebada">Cebada</string>
+    <string name="ma_z">Maíz</string>
+    <string name="amaranto">Amaranto</string>
+    <string name="centeno">Centeno</string>
+    <string name="alimentos_de_origen_animal">Alimentos de Origen Animal</string>
+    <string name="pollo1">Pollo</string>
+    <string name="pescado1">Pescado</string>
+    <string name="huevo1">Huevo</string>
+    <string name="es_al_rgico_a_alg_n_alimento">¿Es alérgico a algún alimento?</string>
+    <string name="escriba_aqu_sus_alergias">Escriba aquí sus alergias</string>
+    <string name="guardara">Guardar</string>
+    <string name="regresara">Regresar</string>
+    <string name="generar_dieta_personalizada1">Generar Dieta Personalizada</string>
+    <string name="todo">TODO</string>
+    <string name="escriba_aqui_sus_alergias">Escriba aquí sus alergias</string>
+    <string name="acelga">Acelga</string>
+    <string name="berenjena">Berenjena</string>
+    <string name="alcachofa">Alcachofa</string>
+    <string name="tomate">Tomate</string>
+    <string name="calabaza">Calabaza</string>
+    <string name="chayote">Chayote</string>
+    <string name="coles_de_bruselas">Coles de Bruselas</string>
+    <string name="coliflor">Coliflor</string>
+    <string name="brocoli">Brocoli</string>
+    <string name="hongos">Hongos</string>
+    <string name="tomate_verde">Tomate verde</string>
+    <string name="zanahoria">Zanahoria</string>
+    <string name="pimiento">Pimiento</string>
+    <string name="pepino">Pepino</string>
+    <string name="papa">Papa</string>
+    <string name="lechuga">Lechuga</string>
+    <string name="espinaca">Espinaca</string>
+    <string name="aqu_aparecer_la_dieta">Aquí aparecerá la dieta</string>
+    <string name="Lentejas">Lentejas</string>
+    <string name="Frijol">Frijol</string>
+    <string name="historial_de_consumos">Historial de consumos:</string>
+    <string name="regresarr">Regresar</string>
+    <string name="qu_es_la_diabetes_y_como_cuidarse">¿Qué es la diabetes y cómo cuidarse?</string>
+    <string name="regresar_a_la_p_gina_principal">Regresar a la página principal</string>
+    <string name="limpiar_historial">Limpiar historial</string>
+    <string name="jarra_de_agua">Jarra de agua</string>
+    <string name="agregar_vaso">Agregar vaso</string>
+    <string name="te_faltan_litros_por_tomar">Te faltan litros por tomar</string>
+    <string name="reiniciar">Reiniciar</string>
+    <string name="regresar1">Regresar</string>
+    <string name="borrar_historial">Borrar Historial</string>
+    <string name="Ejotes">Ejotes</string>
+    <string name="yogurth_natural">Yogurth Natural</string>
+    <string name="carne_de_res">Carne de Res</string>
+    <string name="atun">Atún</string>
+    <string name="Garbanzos">Garbanzos</string>
+    <string name="seleccione_los_alimentos_que_consume_con_frecuencia_para_personalizar_su_dieta">Seleccione los alimentos que consume con frecuencia para personalizar su dieta.</string>
+    <string name="olvidaste_tu_contrase_a">¿Olvidaste tu contraseña?</string>
+    <string name="tu_contrase_a_es">"Tu contraseña es: "</string>
+    <string name="alarm_message">Es hora de tomar tu medicamento</string>
+    <string name="dismiss_alarm">Apagar Alarma</string>
+    <string name="snooze_alarm">Posponer 10 min</string>
+    <string name="hora_de_tomar_tu_medicamento">Hora de tomar tu medicamento</string>
+    <string name="apagar_alarma">Apagar Alarma</string>
+    <string name="posponer_10_min">Posponer 10 min</string>
+    <string name="alarma_pospuesta_10_minutos">Alarma pospuesta 10 minutos</string>
+    <string name="medication_message">¡Es hora de tomar: %1$s!</string>
+    <string name="snooze_message">Alarma de %1$s en modo snooze</string>
+    <string name="stop_alarm_message">Alarma para %1$s detenida</string>
+
+
+
+</resources>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/top_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="Controladiab"
+        app:titleTextColor="@color/white" />
+
+    <TextView
+        android:id="@+id/instruccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/seleccione_los_alimentos_que_consume_con_frecuencia_para_personalizar_su_dieta"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:background="@drawable/boton_cuadrado_blanco" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/boton_cuadrado_blanco"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:drawablePadding="8dp"
+                    android:text="@string/frutas_y_verduras"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    app:drawableStartCompat="@drawable/frutas_verduras" />
+
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:stretchColumns="*">
+
+                    <TableRow>
+                        <CheckBox android:id="@+id/cbFresa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fresa" />
+                        <CheckBox android:id="@+id/cbMora" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mora" />
+                        <CheckBox android:id="@+id/cbMandarina" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mandarina" />
+                    </TableRow>
+                    <TableRow>
+                        <CheckBox android:id="@+id/cbArandanos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ar_ndanos" />
+                        <CheckBox android:id="@+id/cbPera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pera" />
+                        <CheckBox android:id="@+id/cbNaranjaBagazo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/naranja_con_bagazo" />
+                    </TableRow>
+                    <TableRow>
+                        <CheckBox android:id="@+id/cbManzana" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/manzana" />
+                        <CheckBox android:id="@+id/cbGuayaba" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/guayaba" />
+                        <CheckBox android:id="@+id/cbAguacate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aguacate" />
+                    </TableRow>
+                    <TableRow>
+                        <CheckBox android:id="@+id/cbKiwi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kiwi" />
+                        <CheckBox android:id="@+id/cbEjotes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Ejotes" />
+                        <CheckBox android:id="@+id/cbCiruela" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ciruela" />
+                    </TableRow>
+                    <TableRow>
+                    <CheckBox android:id="@+id/cbAcelga" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/acelga" />
+                    <CheckBox android:id="@+id/cbAlcachofa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/alcachofa" />
+                    <CheckBox android:id="@+id/cbBerenjena" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/berenjena" />
+                </TableRow>
+                <TableRow>
+                    <CheckBox android:id="@+id/cbTomate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tomate" />
+                    <CheckBox android:id="@+id/cbCalabaza" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calabaza" />
+                    <CheckBox android:id="@+id/cbChayote" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chayote" />
+                </TableRow>
+                <TableRow>
+                    <CheckBox android:id="@+id/cbColesBruselas" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coles_de_bruselas" />
+                    <CheckBox android:id="@+id/cbColiflor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coliflor" />
+                    <CheckBox android:id="@+id/cbBrocoli" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/brocoli" />
+                </TableRow>
+                <TableRow>
+                    <CheckBox android:id="@+id/cbHongos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hongos" />
+                    <CheckBox android:id="@+id/cbTomateVerde" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tomate_verde" />
+                    <CheckBox android:id="@+id/cbZanahoria" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zanahoria" />
+                </TableRow>
+                <TableRow>
+                    <CheckBox android:id="@+id/cbPimiento" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pimiento" />
+                    <CheckBox android:id="@+id/cbPepino" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pepino" />
+                    <CheckBox android:id="@+id/cbPapa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/papa" />
+                </TableRow>
+                <TableRow>
+                    <CheckBox android:id="@+id/cbLechuga" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lechuga" />
+                    <CheckBox android:id="@+id/cbEspinaca" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/espinaca" />
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/boton_cuadrado_blanco"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:drawablePadding="8dp"
+                    android:text="@string/cereales"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    app:drawableStartCompat="@drawable/cereales" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:stretchColumns="*">
+
+                    <TableRow>
+                        <CheckBox android:id="@+id/cbArroz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/arroz" />
+                        <CheckBox android:id="@+id/cbAvena" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/avena" />
+                        <CheckBox android:id="@+id/cbTrigo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/trigo" />
+                    </TableRow>
+                    <TableRow>
+                        <CheckBox android:id="@+id/cbQuinoa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quinoa" />
+                        <CheckBox android:id="@+id/cbLentejas" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Lentejas" />
+                        <CheckBox android:id="@+id/cbMaiz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ma_z" />
+                    </TableRow>
+                    <TableRow>
+                        <CheckBox android:id="@+id/cbAmaranto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/amaranto" />
+                        <CheckBox android:id="@+id/cbFrijol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Frijol" />
+                        <CheckBox android:id="@+id/cbGarbanzos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Garbanzos" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/boton_cuadrado_blanco"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:drawablePadding="8dp"
+                    android:text="@string/alimentos_de_origen_animal"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    app:drawableStartCompat="@drawable/origen_animal" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="*">
+
+                    <TableRow tools:ignore="UselessParent">
+                        <CheckBox android:id="@+id/cbPollo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pollo1" />
+                        <CheckBox android:id="@+id/cbPescado" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pescado1" />
+                        <CheckBox android:id="@+id/cbHuevo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/huevo1" />
+                    </TableRow>
+                    <TableRow tools:ignore="UselessParent">
+                        <CheckBox android:id="@+id/cbAtun" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/atun" />
+                        <CheckBox android:id="@+id/cbCarneDeRes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/carne_de_res" />
+                        <CheckBox android:id="@+id/cbYogurthNatural" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/yogurth_natural" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/boton_cuadrado_blanco"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/es_al_rgico_a_alg_n_alimento"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etAlergias"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="@string/escriba_aqui_sus_alergias"
+                    android:background="@drawable/borde_edittext"
+                    android:padding="12dp"
+                    android:inputType="text"
+                    android:autofillHints="autofillHintName"
+                    android:textColor="#000000"
+                    android:textColorHint="#808080"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivPlatoBienComer"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:contentDescription="@string/todo"
+                android:scaleType="centerInside"
+                android:src="@drawable/plato_bien_comer" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/btnGuardarAlimentos"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/guardara"
+            android:backgroundTint="@color/green"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnRegresarAlimentos"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/regresara"
+            android:backgroundTint="@color/green"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnGenerarDieta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/generar_dieta_personalizada1"
+        android:textColor="@android:color/white" />
+</LinearLayout>
